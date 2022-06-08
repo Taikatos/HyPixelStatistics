@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "362130009511",
+    "project_id": "hypixel-693ec",
+    "storage_bucket": "hypixel-693ec.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:362130009511:android:a14adb057b17eec3b5da82",
+        "android_client_info": {
+          "package_name": "com.example.hypixel"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "362130009511-qor2q1kbt8udrmdkpfib1gnd7i83qshn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDt9uO5phbjNdVYiqxSJqHVxH3TSeNEX3A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "362130009511-qor2q1kbt8udrmdkpfib1gnd7i83qshn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:362130009511:android:ba18178ce0f1fe02b5da82",
+        "android_client_info": {
+          "package_name": "com.pianopianociproviamo.hypixelstatistics"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "362130009511-qor2q1kbt8udrmdkpfib1gnd7i83qshn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDt9uO5phbjNdVYiqxSJqHVxH3TSeNEX3A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "362130009511-qor2q1kbt8udrmdkpfib1gnd7i83qshn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

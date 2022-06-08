@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--Primary color-->
+    <color name="brown">#3B2100</color>
+    <color name="beige">#CC9933</color>
+    <color name="light_beige">#D7AF57</color>
+    <color name="bg_brown">#50373A</color>
+    <!--Text color-->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="grey" >#777777</color>
+    <!--Useless color-->
+    <color name="light_blue">#03DAC5</color>
+    <color name="darker_light_blue">#018786</color>
+
+</resources>

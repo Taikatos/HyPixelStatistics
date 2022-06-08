@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/bg_register_ar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:adjustViewBounds="true"
+        android:scaleType="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/bg_a1" />
+
+
+    <ImageButton
+        android:id="@+id/btn_back_ar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:clickable="true"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@drawable/btn_back"
+        />
+
+    <LinearLayout
+        android:id="@+id/linearLayoutR"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <EditText
+            android:id="@+id/form_register_ar_gameName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/text_form"
+            android:ems="10"
+            android:hint="IN-GAME NAME"
+            android:inputType="textPersonName"
+            android:textAlignment="center"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            />
+
+        <EditText
+            android:id="@+id/form_register_ar_mail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="MAIL"
+            android:textAlignment="center"
+            android:background="@drawable/text_form"
+            android:ems="10"
+            android:inputType="textEmailAddress"
+            android:layout_marginTop="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/form_register_ar_gameName"/>
+
+        <EditText
+            android:id="@+id/form_register_ar_mail_c"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="REPEAT MAIL"
+            android:textAlignment="center"
+            android:background="@drawable/text_form"
+            android:ems="10"
+            android:inputType="textEmailAddress"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/form_register_ar_mail"/>
+
+        <EditText
+            android:id="@+id/form_register_ar_pw"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="PASSWORD"
+            android:textAlignment="center"
+            android:background="@drawable/text_form"
+            android:ems="10"
+            android:inputType="textPassword"
+            android:layout_marginTop="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/form_register_ar_mail_c"/>
+
+        <EditText
+            android:id="@+id/form_register_ar_pw_c"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Repeat PASSWORD"
+            android:textAlignment="center"
+            android:background="@drawable/text_form"
+            android:ems="10"
+            android:inputType="textPassword"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/form_register_ar_pw"/>
+
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/btn_register_c"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_register_ar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayoutR" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
