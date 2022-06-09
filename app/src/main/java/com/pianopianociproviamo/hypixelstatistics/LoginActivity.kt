@@ -5,6 +5,17 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.ImageButton
 
+/*
+    *   companion object {
+    *
+    *       var instance: MainActivity? = null
+    +   }
+    *   init {
+    *       instance = this
+    *   }
+    *
+ * */
+
 public class LoginActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

@@ -13,15 +13,18 @@
         <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.2075" />
         <entry key="app/src/main/res/drawable/ic_profile.xml" value="0.161" />
         <entry key="app/src/main/res/drawable/ic_stats.xml" value="0.215" />
+        <entry key="app/src/main/res/drawable/itbg_c_menu.xml" value="0.2775" />
+        <entry key="app/src/main/res/drawable/itbg_h_home.xml" value="0.2775" />
         <entry key="app/src/main/res/layout/activity_launcher.xml" value="0.1515625" />
         <entry key="app/src/main/res/layout/activity_login.xml" value="0.3491847826086957" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.335" />
         <entry key="app/src/main/res/layout/activity_register.xml" value="0.31399317406143346" />
         <entry key="app/src/main/res/layout/fragment_chat.xml" value="0.1515625" />
-        <entry key="app/src/main/res/layout/fragment_home.xml" value="0.1515625" />
+        <entry key="app/src/main/res/layout/fragment_home.xml" value="0.1" />
         <entry key="app/src/main/res/layout/fragment_profile.xml" value="0.1515625" />
         <entry key="app/src/main/res/layout/fragment_search.xml" value="0.1515625" />
         <entry key="app/src/main/res/layout/fragment_stats.xml" value="0.1515625" />
+        <entry key="app/src/main/res/layout/item_home.xml" value="0.35989583333333336" />
         <entry key="app/src/main/res/menu/nav_bar_menu.xml" value="0.3880208333333333" />
         <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.2075" />
       </map>

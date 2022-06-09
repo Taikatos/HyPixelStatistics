@@ -17,7 +17,6 @@
         android:id="@+id/ic_home"
         android:icon="@drawable/ic_home"
         android:title="Home"
-        android:checked="true"
         />
 
     <item

@@ -6,7 +6,6 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import com.pianopianociproviamo.hypixelstatistics.R
-import com.pianopianociproviamo.hypixelstatistics.databinding.FragmentChatBinding
 
 /**
  * A simple [Fragment] subclass.
