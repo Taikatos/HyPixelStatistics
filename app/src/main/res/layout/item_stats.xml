@@ -14,7 +14,6 @@
         android:id="@+id/rc_iw_icon"
         android:layout_width="64dp"
         android:layout_height="64dp"
-        android:src=""
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
