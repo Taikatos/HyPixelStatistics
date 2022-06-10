@@ -19,9 +19,8 @@ public class LauncherActivity : AppCompatActivity() {
 
         val btnRegister_a1 = findViewById<ImageButton>(R.id.btn_register)
         btnRegister_a1.setOnClickListener(){
-            Intent(this, RegisterActivity::class.java).also{
-                startActivity(it)
-            }
+            val intent = Intent(this, RegisterActivity::class.java)
+            startActivity(intent)
         }
 
     }

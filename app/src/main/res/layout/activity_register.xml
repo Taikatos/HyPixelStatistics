@@ -98,7 +98,7 @@
             android:id="@+id/form_register_ar_pw_c"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:hint="Repeat PASSWORD"
+            android:hint="REPEAT PASSWORD"
             android:textAlignment="center"
             android:background="@drawable/text_form"
             android:ems="10"
