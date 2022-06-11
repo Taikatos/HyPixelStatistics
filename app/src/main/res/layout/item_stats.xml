@@ -11,7 +11,7 @@
     android:layout_marginRight="4dp">
 
     <ImageView
-        android:id="@+id/rc_iw_icon"
+        android:id="@+id/statsImage"
         android:layout_width="64dp"
         android:layout_height="64dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -19,7 +19,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/rc_tv_title"
+        android:id="@+id/statsName"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginLeft="8dp"
@@ -28,7 +28,7 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/rc_iw_icon"
+        app:layout_constraintStart_toEndOf="@+id/statsImage"
         app:layout_constraintTop_toTopOf="parent" />
 
 
