@@ -11,7 +11,6 @@ import androidx.recyclerview.widget.RecyclerView.ViewHolder
 
 class statsAdapter (val listStats:List<statsViewModel>, var context:Context) : RecyclerView.Adapter<statsAdapter.ViewHolder>() {
 
-    private val title: arrayOf("")
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
         val view = LayoutInflater.from(parent.context).inflate(R.layout.item_stats, parent, false)

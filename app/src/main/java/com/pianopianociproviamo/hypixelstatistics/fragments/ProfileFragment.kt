@@ -10,4 +10,5 @@ import com.pianopianociproviamo.hypixelstatistics.R
 /**
  * A simple [Fragment] subclass.
  */
-class ProfileFragment : Fragment(R.layout.fragment_profile) {}
+class ProfileFragment : Fragment(R.layout.fragment_profile)
+{}
